@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Adrift</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="login">Login</string>
+    <string name="not_registered">Not Registered?</string>
+    <string name="register">REGISTER</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="registerRegAct">Register</string>
+    <string name="already_register">Already Register</string>
+    <string name="loginRegAct">Login</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="email">Email</string>
+    <string name="err_email">Enter a valid email</string>
+    <string name="err_name">Invalid at least 3 char</string>
+    <string name="registerMain">Register</string>
+    <string name="start_forum">Start forum</string>
+    <string name="add_to_group">Add to group</string>
+    <string name="user_gmail_com">user@gmail.com</string>
+    <string name="dear_user">Dear User</string>
+    <string name="ready_for_adventures">Ready for adventures!</string>
+    <string name="hey_there">Hey, there</string>
+    <string name="registerReg">Register</string>
+    <string name="loginLogAct">Login</string>
+    <string name="button_login">Login</string>
+
+
+</resources>

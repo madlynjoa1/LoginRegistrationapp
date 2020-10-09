@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/moradito">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/moradito">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/registerReg"
+        android:textSize="130sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/cookie_regular"
+
+        />
+    <!--    <ImageView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="100dp"-->
+    <!--        android:layout_marginTop="10dp"-->
+    <!--        app:srcCompat="@drawable/mini_logo"-->
+    <!--        />-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/usernameET"
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:hint="@string/username"
+            android:layout_gravity="center"
+            android:background="@color/white"
+            android:layout_marginTop="10dp"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/firstName"
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:hint="@string/first_name"
+            android:layout_gravity="center"
+            android:background="@color/white"
+            android:layout_marginTop="10dp"
+
+            />
+
+        <EditText
+            android:id="@+id/lastName"
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:layout_marginLeft="13dp"
+            android:hint="@string/last_name"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/dateOfBirth"
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:hint="@string/date_of_birth"
+            android:layout_gravity="center"
+            android:background="@color/white"
+            android:layout_marginTop="20dp"
+
+            />
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@color/white"
+            android:layout_marginLeft="13dp"
+            android:hint="@string/email"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/passwordET"
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@color/white"
+            android:hint="@string/password"/>
+        <EditText
+            android:id="@+id/confirmPasswordET"
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@color/white"
+            android:layout_marginLeft="13dp"
+            android:hint="@string/confirm_password"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/registerRegAct"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:text="@string/registerRegAct"
+        android:layout_marginTop="20dp"
+        android:background="@color/backgroundPrimary"
+        android:textSize="20sp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="@string/already_register"/>
+        <TextView
+            android:id="@+id/loginRegAct"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:paddingStart="10dp"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="@string/loginRegAct"/>
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
+</ScrollView>
