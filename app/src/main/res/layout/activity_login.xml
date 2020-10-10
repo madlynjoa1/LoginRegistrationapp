@@ -14,6 +14,7 @@
     android:background="@color/moradito"
     android:gravity="center"
     android:orientation="vertical">
+    <!--Created font family from google fonts used it in text view-->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -32,6 +33,7 @@
     <!--        android:layout_marginTop="10dp"-->
     <!--        app:srcCompat="@drawable/mini_logo"-->
     <!--        />-->
+    <!--created 2 edit text to ass username -password-->
     <EditText
         android:id="@+id/usernameET"
         android:layout_width="170dp"
@@ -50,6 +52,7 @@
         android:layout_marginTop="20dp"
         android:background="@color/white"
         android:hint="@string/password"/>
+    <!--Button to login-->
     <Button
         android:id="@+id/buttonLoginAct"
         android:layout_width="90dp"
@@ -68,6 +71,7 @@
             android:layout_width="wrap_content"
             android:layout_height="35dp"
             android:text="@string/not_registered"/>
+       <!--view button ewho is used to go to registrationActivity-->
         <TextView
             android:id="@+id/registerLoginAct"
             android:layout_width="wrap_content"

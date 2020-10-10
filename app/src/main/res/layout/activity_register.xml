@@ -15,7 +15,7 @@
     android:orientation="vertical"
     android:gravity="center"
     android:background="@color/moradito">
-
+    <!--Doownloaded goofle font cookie and used it for text view-->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -34,6 +34,7 @@
     <!--        android:layout_marginTop="10dp"-->
     <!--        app:srcCompat="@drawable/mini_logo"-->
     <!--        />-->
+    <!--CLinear layout horizontal so we put multiple edit text-->
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -133,7 +134,7 @@
         android:layout_marginTop="20dp"
         android:background="@color/backgroundPrimary"
         android:textSize="20sp"/>
-
+    <!--Created register button and a login in case you already sign in-->
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

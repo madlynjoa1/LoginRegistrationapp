@@ -25,6 +25,11 @@
     <string name="registerReg">Register</string>
     <string name="loginLogAct">Login</string>
     <string name="button_login">Login</string>
+    <string name="err_year">Invalid Date of Birth</string>
+    <string name="passwordRegAct">Capital and small letter symbol number</string>
+    <string name="err_lastName">Invalid at least 3 letters</string>
+    <string name="err_username">Invalid at least 3 letters</string>
+    <string name="err_dateOfBirth">dd/mm/yyyy</string>
 
 
 </resources>

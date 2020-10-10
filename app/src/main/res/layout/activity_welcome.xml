@@ -6,6 +6,7 @@
     tools:context=".RegisterActivity"
     android:background="@color/moradito"
     android:gravity="center_horizontal">
+    <!-- Create a linear layout to represent the half screen-->
 <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -14,7 +15,9 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="280dp">
+        <!--Created a gradient and added an image in ralative layout-->
     <LinearLayout
+
         android:background="@drawable/gradientbackground"
         android:layout_width="match_parent"
         android:layout_height="310dp"
@@ -39,6 +42,8 @@
 
 
     </RelativeLayout>
+    <!--Created a multiple linear layout to represent each line
+    -->
     <LinearLayout
         android:layout_width="360dp"
         android:layout_height="wrap_content"
